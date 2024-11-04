@@ -8,6 +8,7 @@ console.log(a);
 let b = 'owu';
 console.log(b);
 
+
 let c = 'com';
 console.log(c);
 

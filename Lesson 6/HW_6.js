@@ -46,8 +46,7 @@ console.log(cleanStr);
 let str2 = 'Ревуть воли як ясла повні';
 function stringToArray(str2){
     if (str2){
-        const split = str2.split(' ');
-        return split;
+        return str2.split(' ');
     }
     return [''];
 }

@@ -1,38 +1,50 @@
 // - Знайти та вивести довижину настипних стрінгових значень
 // 'hello world', 'lorem ipsum', 'javascript is cool'
 
-let sentence1 = 'hello world';
-console.log(sentence1.length);
-let sentence2 = 'lorem ipsum';
-console.log(sentence2.length);
-let sentence3 = 'javascript is cool';
-console.log(sentence3.length);
+// let sentence1 = 'hello world';
+// console.log(sentence1.length);
+// let sentence2 = 'lorem ipsum';
+// console.log(sentence2.length);
+// let sentence3 = 'javascript is cool';
+// console.log(sentence3.length);
 
+let sentences = ['hello world', 'lorem ipsum', 'javascript is cool'];
+for (let sentence of  sentences){
+    console.log(sentence.length);
+}
 // - Перевести до великого регістру наступні стрінгові значення
 // 'hello world', 'lorem ipsum', 'javascript is cool'
 
-let firstSentence = 'hello world';
-const s1 = firstSentence.toUpperCase();
-console.log(s1);
-let secondSentence = 'lorem ipsum';
-const s2 = secondSentence.toUpperCase();
-console.log(s2);
-let thirdSentence = 'javascript is cool';
-const s3 = thirdSentence.toUpperCase();
-console.log(s3);
+// let firstSentence = 'hello world';
+// const s1 = firstSentence.toUpperCase();
+// console.log(s1);
+// let secondSentence = 'lorem ipsum';
+// const s2 = secondSentence.toUpperCase();
+// console.log(s2);
+// let thirdSentence = 'javascript is cool';
+// const s3 = thirdSentence.toUpperCase();
+// console.log(s3);
+
+for (let sentence of  sentences){
+    console.log(sentence.toUpperCase());
+}
 
 // - Перевести до нижнього регістру настипні стрінгові значення
 // 'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
 
-let sent1 = 'HELLO WORLD';
-const firstSent = sent1.toLowerCase();
-console.log(firstSent);
-let sent2 = 'LOREM IPSUM';
-const secondSent = sent2.toLowerCase();
-console.log(secondSent);
-let sent3 = 'JAVASCRIPT IS COOL';
-const thirdSent = sent3.toLowerCase();
-console.log(thirdSent);
+// let sent1 = 'HELLO WORLD';
+// const firstSent = sent1.toLowerCase();
+// console.log(firstSent);
+// let sent2 = 'LOREM IPSUM';
+// const secondSent = sent2.toLowerCase();
+// console.log(secondSent);
+// let sent3 = 'JAVASCRIPT IS COOL';
+// const thirdSent = sent3.toLowerCase();
+// console.log(thirdSent);
+
+for (let sentence of  sentences){
+    console.log(sentence.toLowerCase());
+}
 
 // - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
 let str = ' dirty string   ';
